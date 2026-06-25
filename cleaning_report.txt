@@ -1,0 +1,29 @@
+
+=============================
+DATA CLEANING REPORT
+=============================
+
+Original Dataset Shape : (1309, 28)
+
+Cleaned Dataset Shape : (1309, 9)
+
+Rows Removed : 0
+
+Columns Removed : 19
+
+Removed Columns:
+zero, zero.1, zero.2, zero.3, zero.4, zero.5, zero.6, zero.7, zero.8, zero.9, zero.10, zero.11, zero.12, zero.13, zero.14, zero.15, zero.16, zero.17, zero.18
+
+Missing Values Remaining : 0
+
+Duplicate Rows Remaining : 0
+
+Cleaning Operations Performed:
+✔ Removed duplicate rows
+✔ Removed unnecessary columns
+✔ Filled missing numerical values using Median
+✔ Filled missing categorical values using Mode
+✔ Removed extra spaces from text
+✔ Exported cleaned dataset
+
+Data cleaning completed successfully.
